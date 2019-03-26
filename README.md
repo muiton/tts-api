@@ -1,5 +1,5 @@
 # Text to Scheech Free API
-![Logo](https://i.imgur.com/ZJ6o6r2.png =100x)
+![Logo](https://i.imgur.com/ZJ6o6r2.png)
 
 ## About
 [Textto-Speech.Net](https://www.textto-speech.net) is provideing free API for converting text into speech or mp3 files. We use Google's TTS engine to make it happen.
