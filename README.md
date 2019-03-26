@@ -37,7 +37,7 @@ __Note :__ For all demos we have used __[unirest](http://unirest.io/)__ Library.
 
 ### Make Text to Speech
 
-#### cURL
+### cURL
 ```curl
 curl -X POST --include 'https://tts-api.org/make' \
   -H 'Content-Type: application/x-www-form-urlencoded' \
@@ -45,7 +45,7 @@ curl -X POST --include 'https://tts-api.org/make' \
   -d 'lang=en-us'
 ```
 
-#### PHP
+### PHP
 ```php
 $response = Unirest\Request::post("https://tts-api.org/make",
   array(
@@ -58,7 +58,7 @@ $response = Unirest\Request::post("https://tts-api.org/make",
 );
 ```
 
-#### Python
+### Python
 ```python
 response = unirest.post("https://tts-api.org/make",
   headers={
@@ -73,17 +73,17 @@ response = unirest.post("https://tts-api.org/make",
 
 ### Get Supported Langauges
 
-#### cURL
+### cURL
 ```curl
 curl --get --include 'https://tts-api.org/getlang'
 ```
 
-#### PHP
+### PHP
 ```php
 $response = Unirest\Request::get("https://tts-api.org/getlang");
 ```
 
-#### Python
+### Python
 ```python
 response = unirest.get("https://tts-api.org/getlang")
 ```
