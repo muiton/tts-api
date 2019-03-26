@@ -88,7 +88,9 @@ $response = Unirest\Request::get("https://tts-api.org/getlang");
 response = unirest.get("https://tts-api.org/getlang")
 ```
 ## Support
-For any kind of query or issues please send a mail to [madcode.git@gmail.com](mailto:madcode.git@gmail.com)
+For any kind of query or issues please use bellow methods.
+* Mail at [madcode.git@gmail.com](mailto:madcode.git@gmail.com)
+* Create an ticket or issue [here](https://github.com/madcode-git/tts-api/issues)
 
 ## Copyrigtht
 * [Textto-Speech.Net](https://www.textto-speech.net)
